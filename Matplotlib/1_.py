@@ -13,4 +13,7 @@ mt.title("First plot")
 
 mt.plot(x,y, color = "red", linestyle = "--", label = 'Data Line', marker = "o")
 mt.legend() #A legend is a box or area within the plot that provides labels for the elements in the graph, such as lines, markers, or other graphical elements. Each label explains what the corresponding element represents.
+mt.xlim(0,5)  #setting limit for x axix
+mt.ylim(0,5)  #setting limit for y axis
+mt.grid(True) #grid is used to show the grid lines on the plot
 mt.show()
