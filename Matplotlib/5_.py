@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+#Pie chart
 # Data to plot
 labels = ['Category A', 'Category B', 'Category C', 'Category D']  # Labels for each slice
 sizes = [30, 20, 25, 25]  # Values for each slice
