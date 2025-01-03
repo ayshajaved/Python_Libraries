@@ -8,4 +8,7 @@ plot.hist(data, bins=3, edgecolor='black', color='pink')
 #edgecolor is the color of the border of the bins
 #color is the color of the bins
 
+plot.title("Histogram")
+plot.xlabel("X-axis")
+plot.ylabel("Y-axis")
 plot.show()
